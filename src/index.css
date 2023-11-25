@@ -1,0 +1,106 @@
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main page style */
+
+.wrapper {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 99, 231, 1);
+}
+
+/* main box styles */
+
+.main_Box {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 0 80px 130px 0;
+    border-radius: 20px;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* left content styles */
+
+.left-content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 472px;
+    height: 359px;
+    position: relative;
+}
+
+.photo-box {
+    position: absolute;
+    left: 0;
+    max-height: 359px;
+}
+
+.block-photo-box {
+    position: absolute;
+    left: -100px;
+    top: 190px;
+    max-width: 90px;
+}
+
+.photo-box img 
+.lock-photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* right content styles */
+
+.right-content-box {
+    padding-top: 60px;
+}
+
+.according-box {
+    margin-top: 30px;
+}
+
+.according-lists {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px 0 20px 0;
+    border-bottom: 1px solid rgba(232, 232, 234, 1);
+}
+
+.according-text-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.according-text-box img {
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+.according-lists span {
+    font-size: 18px;
+    color:  rgba(75, 76, 95, 1);
+}
+
+.according-lists span:hover {
+    transition: color 0.3s ease;
+    color: rgba(244, 123, 86, 1);
+}
+
+.according-lists p {
+    padding-top: 13px;
+    font-size: 14px;
+    color:  rgba(75, 76, 95, 1);
+}
+
